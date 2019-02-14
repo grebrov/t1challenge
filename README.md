@@ -1,5 +1,7 @@
 # C1GamesStarterKit
 
+This is my pull request change
+
 Welcome to the C1 Starter Kit! This collection of scripts and an example `starter-algo` should help
 you start on your journey to developing the ultimate algo.
 
