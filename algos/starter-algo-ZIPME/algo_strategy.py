@@ -6,7 +6,7 @@ from sys import maxsize
 
 """
 Most of the algo code you write will be in this file unless you create new
-modules yourself. Start by modifying the 'on_turn' function.
+modules yourself. Start by modifying the 'on_turn' function. Boris
 
 Advanced strategy tips: 
 
@@ -62,13 +62,7 @@ class AlgoStrategy(gamelib.AlgoCore):
     strategy and can safey be replaced for your custom algo.
     """
     def starter_strategy(self, game_state):
-        """
-        Build the C1 logo. Calling this method first prioritises
-        resources to build and repair the logo before spending them 
-        on anything else.
-        """
-        self.build_c1_logo(game_state)
-
+        
         """
         Then build additional defenses.
         """
